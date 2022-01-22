@@ -1,0 +1,28 @@
+.header--nav {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header--nav ul a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.header--nav ul > a.active {
+  color: #5ece7b;
+  border-bottom: 2px solid #5ece7b;
+}
+
+.home--logo img {
+  width: 31.18px;
+  height: 28.62;
+}
